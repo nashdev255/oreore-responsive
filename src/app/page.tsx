@@ -11,6 +11,20 @@ export default function Home() {
         <div className='rounded-lg bg-sky-500 py-3 text-center text-white'>4</div>
         <div className='rounded-lg bg-sky-500 py-3 text-center text-white'>5</div>
         <div className='rounded-lg bg-sky-500 py-3 text-center text-white'>6</div>
+        <div className='col-span-3 flex justify-center rounded-lg bg-sky-500 py-3 text-white'>
+          <div className='space-y-4'>
+            <h1 className='text-xl'>Title</h1>
+            <div className='flex space-x-4'>
+              <div className='h-14 w-14 bg-white' />
+              <div>
+                <h2 className='text-lg'>name : nash</h2>
+                <p>FrontEnd Developer</p>
+              </div>
+            </div>
+            <p>contentcontentcontentcontentcontent</p>
+          </div>
+        </div>
+        <div className='col-span-3 rounded-lg bg-sky-500 py-3 text-center text-white'>F</div>
       </div>
     </div>
   )
